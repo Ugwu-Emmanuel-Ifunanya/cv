@@ -1,0 +1,24 @@
+body {font-family: Georgia, serif;
+    background-color: #eaf6f6;}
+    h1 {
+        font-family:  Verdana, sans-serif;
+        text-transform: capitalize;
+    }
+    .checked {color: yellow;}
+    hr {
+        color: gray;
+        border-style: none;
+        width: 5%;
+        border-width: 5px;
+        border-top-style: dotted;
+    }
+    h1, h2 {
+        color: #66bfbf;
+    }
+    .hobcom {
+        background-color: #333399;
+        color: white;
+        padding: 5px;
+        text-decoration: none;
+
+    }

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Contact Information</title>
+    <style>
+        hr {size: 3;}
+        body {background-color: #eaf6f6;
+            font-size: 19px;
+        }
+        input, textarea {
+            border-radius: 7px;
+            width: 50%;
+            padding: 12px 13px;
+            outline: #333;
+        }
+       
+    </style>
+</head>
+<body > 
+         <h1>My Contact Details</h1>
+         <address>
+            contact me 
+            <p>09050948173</p>
+            <p>eifunanya193@gmail.com</p>
+         </address>
+         <hr noshade >
+         <form action="mailto:eifunanya193@gmail.com" enctype="text/plain">
+            <label for="name">Fullname: </label>
+            <input type="text" name="name" required placeholder="Your name..."><br><br>
+            <label for="email">Your Email: </label>
+            <input type="email" name="email" required placeholder="your email..."><br><br>
+            <label for="msg">Your Message: </label><br>
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="your message..."></textarea>
+            <br>
+            <input type="submit" value="Send">
+         </form>
+    </div>
+</body>
+</html>

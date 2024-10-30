@@ -5,21 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <meta name="author" content="Ugwu Emmanuel Ifunanya">
      <script src="https://kit.fontawesome.com/7c9f81424f.js" crossorigin="anonymous"></script>
+     <link rel="icon" type="image/x-image" href="CSS-My Site/favicon (1).ico">
      <link rel="stylesheet" href="style.css">
     <title>My Personal website</title>
 </head>
+<style>
+    @media screen and (max-width: 550px) {
+        .header {
+            flex-direction: column;
+            margin-bottom: 2px;
+            align-items: center;
+            justify-content: center;
+        }
+        .sen {
+            text-align: center;
+        }
+         .nav {
+            margin-bottom: 20px;
+         }   
+    }
+</style>
 <body>
     <main>
-        <table cellspacing="20">
-           <tr>
-            <td><p><img src="myCirePics.png" alt="my profile picture" style="height: 190;width: 240px;"></p></td>
-            <td><h1>Ugwu Emmanuel Ifunanya</h1>
-            <p><em>upcoming software engineer at <strong><a href="https://www.microsoft.com">Microsoft</a></strong></em>.</p>
-            <p>I am a student of the department of <strong>Computer Science <a href="https://esut.edu.ng/"><abbr title="enugu state university of science and technology">ESUT</abbr></a></strong></p></td>
-           </tr>
-        </table>
+        <div class="header">
+            <div class="img">
+                <img src="myCirePics.png" alt="my profile pic" id="ppics">
+            </div>
+            <div class="sen">
+                <h1>Ugwu Emmanuel Ifunanya</h1>
+                <p><em>upcoming software engineer at <strong><a href="https://www.microsoft.com">Microsoft.</a></strong></em></p>
+                <p>I am a student of the department of <strong>Computer Science <a href="https://esut.edu.ng/"><abbr title="enugu state university of science and technology">ESUT.</abbr></a></strong></p>
+            </div>
+        </div>
         <hr>
-        <h2 style="text-decoration: underline;">Education</h2>
+        <h2 style="text-decoration: none;">Education</h2>
         <ul>
             <li>Zion Nursery and Primary School</li>
             <li>Christ The King Nursery and Primary School</li>
@@ -27,7 +46,7 @@
             <li>Enugu State University of Science And Technology <a href="https://esut.edu.ng/"><abbr title="enugu state university of science and technology">ESUT</abbr></a> currently</li>
         </ul>
         <hr >
-        <h2 style="text-decoration: underline;">Skills</h2>   
+        <h2 style="text-decoration: none;">Skills</h2>   
         <table>
             <tr>
                 <td>HTML </td><td> <span class="fa fa-star checked"></span>
@@ -55,9 +74,11 @@
             </tr>
             
         </table>
-        <hr>
-        <a href="contact.html" class="hobcom" >My Contact</a> &nbsp;&nbsp;
-        <a href="Hobby.html"class="hobcom" >My Hobby</a>
+        <hr class="bottomhr">
+        <div class="nav">
+            <a href="contact.html" class="hobcom" >My Contact</a>
+            <a href="Hobby.html"class="hobcom" >My Hobby</a>
     </main>
+        </div>
 </body>
 </html>

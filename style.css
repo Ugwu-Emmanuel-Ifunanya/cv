@@ -1,4 +1,5 @@
 body {font-family: Georgia, serif;
+    font-size: 17px;
     background-color: #eaf6f6;}
     h1 {
         font-family:  Verdana, sans-serif;
@@ -11,6 +12,7 @@ body {font-family: Georgia, serif;
         width: 5%;
         border-width: 5px;
         border-top-style: dotted;
+        text-align: center;
     }
     h1, h2 {
         color: #66bfbf;
@@ -18,7 +20,29 @@ body {font-family: Georgia, serif;
     .hobcom {
         background-color: #333399;
         color: white;
-        padding: 5px;
+        padding: 7px 15px;
         text-decoration: none;
+        border-radius: 10px;
+        margin-right: 4px;
 
+    }
+    #ppics {
+        object-fit: cover;
+        width: 190px;
+        height: 190px;
+    }
+    .img {
+        flex: 20%;
+        float: left;
+    }
+    .header {
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .sen {
+        flex: 80%;
+
+    }
+    .bottomhr {
+        margin-bottom: 20px;
     }
